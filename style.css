@@ -62,7 +62,7 @@
   padding: .5rem;  /*-- a little internal space --*/
   margin: auto;
   display: block;
-  font-family: 'Robato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #f49542;
   border-radius: 25px;
   border: 1px solid #6f85a8;
@@ -112,6 +112,7 @@ footer {
 }
 .slideshow-wrapper img {
   width: 100%; /*-- makes slideshow responsive in size --*/
+  height: 650px;
 }
 .prev, .next {
   cursor: pointer; /*-- changes hover cursor to the hand --*/
