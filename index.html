@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Sample</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body id="page">
+    <div class="slideshow-wrapper">
+      <div class="slide fade">
+        <div class="numberof">1 of 4</div>
+        <img src="pix/nature.jpg"/>
+        <div class="captiontext">A beautiful view of nature.</div>
+      </div><!-- end .slide.fade -->
+      <div class="slide fade">
+        <div class="numberof">2 of 4</div>
+        <img src="pix/fjords.jpg"/>
+        <div class="captiontext">The Norwegian Fjords in glory.</div>
+      </div><!-- end .slide.fade -->
+      <div class="slide fade">
+        <div class="numberof">3 of 4</div>
+        <img src="pix/lights.jpg"/>
+        <div class="captiontext">Aurora Borealis over the wilderness.</div>
+      </div><!-- end .slide.fade -->
+      <div class="slide fade">
+        <div class="numberof">4 of 4</div>
+        <img src="pix/mountains.jpg"/>
+        <div class="captiontext">Rounded mountains in sunlight.</div>
+      </div><!-- end .slide.fade -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;<!--unicode for less-than-sign--></a>
+        <a class="next" onclick="plusSlides(1)">&#10095;<!--unicode for greater-than-sign--></a>
+    </div><!--end slideshow-wrapper-->
+    <br>
+    <div class="text-center">
+      <span class="indicator" onclick="currentSlide(1)"></span>
+      <span class="indicator" onclick="currentSlide(2)"></span>
+      <span class="indicator" onclick="currentSlide(3)"></span>
+      <span class="indicator" onclick="currentSlide(4)"></span>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="video">
+          <video controls>
+            <source src="https://www.w3schools.com/TAgs/movie.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image random1"></div>
+        <div class="card-content">
+          <p class="card-title">Bald Eagle</p>
+          <p class="card-text">The largest and most American bird. Can smell freedom from over 10 miles away.
+          </p>
+          <button class="card-btn">More Information</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image random2"></div>
+        <div class="card-content">
+          <p class="card-title">Golden Eagle</p>
+          <p class="card-text">Pretty chill guy. Known amongst the natives as "Big Brown Bird."
+          </p>
+          <button class="card-btn">More Information</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image random3"></div>
+        <div class="card-content">
+          <p class="card-title">Hawk</p>
+          <p class="card-text">Likes to kill squirrels and rabbits and stuff. Banned from Walmart.
+          </p>
+          <button class="card-btn">More Information</button>
+        </div>
+      </div>
+        <div class="card">
+          <div class="card-image random4"></div>
+          <div class="card-content">
+            <p class="card-title">Falcon</p>
+            <p class="card-text">Can dive at speeds up to 240 mph, which I guess is pretty fast.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random5"></div>
+          <div class="card-content">
+            <p class="card-title">Horned Owl</p>
+            <p class="card-text">This owl is common in the United States and is pretty easy to catch apparently.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random6"></div>
+          <div class="card-content">
+            <p class="card-title">Snow Owl</p>
+            <p class="card-text">I think this is the owl that they used in the Harry Potter movies.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random7"></div>
+          <div class="card-content">
+            <p class="card-title">Osprey</p>
+            <p class="card-text">Can fly around with its wings and peck things with its beak.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random8"></div>
+          <div class="card-content">
+            <p class="card-title">Harrier</p>
+            <p class="card-text">Looks similar to the golden eagle. Not to be confused with the fighter jet.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random9"></div>
+          <div class="card-content">
+            <p class="card-title">Goshawk</p>
+            <p class="card-text">The Goshawk is pretty much just a big falcon with crazy, orange eyes. Thirsts for blood.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random10"></div>
+          <div class="card-content">
+            <p class="card-title">Vulture</p>
+            <p class="card-text">Eats dead animals, but not before circling over them for a bit.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random11"></div>
+          <div class="card-content">
+            <p class="card-title">Rooster</p>
+            <p class="card-text">I ran out of cool birds, so I had to use this rooster. The Alice in Chains song is good though.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image random12"></div>
+          <div class="card-content">
+            <p class="card-title">Velociraptor</p>
+            <p class="card-text">Possible ancestor of other predatory birds. Slightly more dangerous than the Goshawk.
+            </p>
+            <button class="card-btn">More Information</button>
+          </div>
+        </div>
+    </div>
+    <footer class="info">
+      <p>&copy;2017 Josh Lopez</p>
+    </footer>
+    <script src="slideshow.js" type="text/javascript"></script>
+  </body>
+</html>
